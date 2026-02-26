@@ -2,7 +2,7 @@ import os
 from flask import Flask, send_from_directory, jsonify
 from flask_jwt_extended import JWTManager
 from flask_cors import CORS
-from extensions import db
+from backend.extensions import db
 
 
 def create_app():
