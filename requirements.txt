@@ -1,17 +1,7 @@
-pip install flask flask-cors flask-jwt-extended flask-sqlalchemy werkzeug python-dotenv
-
-
-
-
-frontend:
-npm install axios react-router-dom
-pip install pillow
-
-
-
-python -m venv venv
-venv\Scripts\activate
-
-npm install react-router-dom axios
-
-
+flask
+flask-cors
+flask-jwt-extended
+flask-sqlalchemy
+werkzeug
+python-dotenv
+gunicorn
