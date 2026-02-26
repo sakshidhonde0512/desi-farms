@@ -65,12 +65,12 @@ def create_app():
     # ==========================
     # REGISTER BLUEPRINTS
     # ==========================
-    from routes.auth import auth_bp
-    from routes.products import product_bp
-    from routes.cart import cart_bp
-    from routes.orders import order_bp
-    from routes.offer_routes import offer_bp
-    from routes.wishlist import wishlist_bp
+    from .routes.auth import auth_bp
+    from .routes.products import product_bp
+    from .routes.cart import cart_bp
+    from .routes.orders import order_bp
+    from .routes.offer_routes import offer_bp
+    from .routes.wishlist import wishlist_bp
 
     app.register_blueprint(auth_bp, url_prefix="/api")
     app.register_blueprint(product_bp, url_prefix="/api")
